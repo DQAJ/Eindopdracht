@@ -476,7 +476,7 @@ body
 		background-color: #E0C91F;
 	}*/
 }
-@media screen and (max-width: 480px),(-webkit-min-device-pixel-ratio: 3)
+@media screen and (max-width: 480px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait)
 {
 	body
 	{
@@ -711,3 +711,227 @@ body
 		display;none;
 	}
 }
+/*@media screen and (max-width: 1279px),(-webkit-min-device-pixel-ratio: 2)and (orientation: portrait)
+{
+	body
+	{
+		width: 100%;
+		margin: 0px;
+		padding: 0px;
+		margin-top: 20px;
+	}
+	#hoofdheader
+	{
+		text-align: center;
+		display: block;
+		position: relative;
+		top: 110px;
+	}
+	main
+	{	
+		background-color: #2699FB;
+		border: solid 10px #000000;
+		padding: 10px;
+		width: 90%;
+		margin: auto;
+		
+		display: grid;
+		grid-template-columns: auto;
+		grid-gap: 10px;
+	}
+	main > content
+	{
+		background-color: #F5F5F5;
+		border: solid 2px #000000;
+		text-align: center;
+		padding: 20px 0;
+	}
+	.Textcontent p
+	{
+		margin: auto;
+		display: block;
+		
+		margin-bottom: 20px;
+		width: 90%;
+	}
+	#maincontent
+	{
+		display: block;
+		border-style: solid;
+		border-width: 2px;
+		border-color: #000000;
+		width: 90%;
+		margin: auto;
+	}
+	#secondarycontent,#sportcontent
+	{
+		display: block;
+		border-style: solid;
+		border-width: 2px;
+		border-color: #000000;
+		width: 90%;
+		margin: auto;
+		margin-top: 20px;
+	}
+	
+	main,#contactcontent,#footercontent
+	{
+		margin-top: 80px;
+	}
+	#referralcontent
+	{
+		display: block;
+		border-style: solid;
+		border-width: 2px;
+		border-color: #000000;
+		margin-bottom: 20px;
+	}
+	#contactcontent
+	{
+		text-align: center;
+		margin: auto;
+	}
+	#contactformulier
+	{
+		margin: auto;
+		margin-top: 20px;
+		display: block;
+		border-style: solid;
+		border-width: 2px;
+		border-color: #000000;
+		margin-bottom: 20px;
+		width: 90%;
+	}
+	#footergeheel
+	{
+		background-color: #2699FB;
+		clear: both;
+	}
+	nav
+	{
+		text-align: center;
+		display: block;
+		width: 100%;
+		position: absolute;
+		top: 0;
+		margin-top: 0;
+		padding: 0;
+		z-index: 9998;
+	}
+	nav ul
+	{
+		display: none;
+		position: absolute;
+		width: 40%;
+		float: left;
+		top: 70px;
+		margin: auto;
+		padding: 0;
+		overflow: hidden;
+		background-color: #2699FB;
+		border: solid 10px #444444;
+		
+		text-align: center;
+		z-index: 2;
+	}
+	#menubutton
+	{
+		display:block;
+		width: 20%;
+		float: left;
+		height: 70px;
+		margin: auto;
+		padding: 0;
+		overflow: hidden;
+		background-color: #2699FB;
+		border: solid 10px #444444;
+		
+		text-align: center;
+		text-decoration: none;
+		z-index: 9999;	
+	}
+	.menulijst
+	{
+		display:block;
+		width: 100%;
+		left: 20%;
+		height: 40px;
+		border: solid 2px #000000;
+		text-align: center;
+		margin: auto;
+		text-decoration: none;
+	}
+	#menubutton:hover + #ullijst
+	{
+		
+		display:block;	
+	}
+	#menubutton:hover
+	{
+		border-bottom: none;
+	}
+	#ullijst:hover
+	{
+		display:block;
+	}
+	nav ul li
+	{
+		text-align: center;
+		margin: auto;
+	}
+	
+	.menulijst:hover
+	{
+		background-color: #707070;
+	}
+	#menuknop
+	{
+		display: none;
+	}
+	
+	
+	
+	#Terugnaarboven
+	{
+		background-color: #AAAAAA;
+		display: none;
+		width: 55px;
+		height: 70px;
+		position: fixed;
+		bottom: 5%;
+		left: 20px;
+		text-align: center;
+		border-style: solid;
+		border-width: 5px;
+		border-color: #000000;
+		z-index: 9999;
+	}
+	
+	#cookiemessageaan
+	{
+		background-color: #AAAAAA;
+		display: block;
+		width: 240px;
+		height: 110px;
+		position: absolute;
+		top: 1%;
+		right: 20px;
+		margin: auto;
+		text-align: center;
+		border-style: solid;
+		border-width: 5px;
+		border-color: #000000;
+		z-index: 9999;
+	}
+	#cookiemessageaan a
+	{
+		color: #2699FB;
+		text-decoration: none;
+	}
+	
+	#cookieOK:visited,#cookieOK:link,#cookieOK:active #cookiemessageaan
+	{
+		position: relative;
+		display;none;
+	}
+}*/
